@@ -32,14 +32,15 @@ def barajar(listadenaipes):
         listadenaipes[nuevaposion] = listadenaipes[i]
         listadenaipes[i] = aux
     return listadenaipes
-#crar baraja
+
+#crear baraja, barajear + imprimirla
 '''
 maza = creaBaraja()
 barajar(maza)
 print(maza)
 '''
 
-print(barajar(creaBaraja()))
+print(barajar(creaBaraja())) #recordem () de crearBaraja
 
 
 
