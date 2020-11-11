@@ -31,7 +31,7 @@ def barajar(listadenaipes):
         aux = listadenaipes[nuevaposion]
         listadenaipes[nuevaposion] = listadenaipes[i]
         listadenaipes[i] = aux
-
+        
 
 
 
