@@ -1,11 +1,9 @@
 import random
 #crear unes llistes amb la baralla
-palos = ["o", "c", "e", "b"]
-numeros = ["A", "2", "3", "4", "5", "6", "7", "S","C", "R"]
 
 #recorrem les llistes en un for: palo i numero son items de les cadenes x fer la conbinació de les dos llistes
 
-def creaBaraja(): #definim funcion
+def creaBaraja(palos, numeros): #definim funcion
     baraja = []  #variable local vuida
     for palo in palos:
         for numero in numeros:
@@ -39,8 +37,8 @@ maza = creaBaraja()
 barajar(maza)
 print(maza)
 '''
-
+'''
 print(barajar(creaBaraja())) #recordem () de crearBaraja
 
-
-
+esta en ocult xq hem creat el main
+'''
